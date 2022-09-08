@@ -1,0 +1,120 @@
+/* CSS Essential Training Exercise */
+/* * {
+    color: red;
+}
+h1 {
+    color: blue;
+}
+h2{
+    color: pink;
+}
+.example {
+    color: orange;
+}
+.example2 {
+    background: black;
+}
+.example.example2 {
+    font-size: 50px;
+}
+#example {
+    font-size: 100px;
+} */
+
+
+/*COLOR PALETTE
+https://coolors.co/8ecae6-219ebc-023047-ffb703-fb8500
+    #8ECAE6 - SKY BLUE
+    #219EBC - TURQUOISE
+    #023047 - NAVY
+    #FFB703 - MUSTARD
+    #FB8500 - ORANGE
+*/
+
+
+
+/* Global Styles
+-----------------------------------*/
+body{
+    color: #343434;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width: 300px;
+}
+a:link{
+    color: #343434;
+}
+a:visited{
+    color: #FB8500;
+}
+a:focus {
+    outline: 1px skyblue;
+}
+a:hover{
+    background:#ffb703;
+    text-decoration: none;
+    padding:3px;
+    border-radius: 4px;
+}
+a:active{
+    color: #f7fff7;
+}
+
+/* Profile
+-----------------------------------*/
+header{
+    background: #ffb703;
+    color: #f7fff7;
+    padding: 10px;
+}
+
+/* Projects
+-----------------------------------*/
+.projects {
+    background:#219EBC;
+    color:#8ECAE6;
+    padding: 10px;
+}
+.projects a{
+    color:#8ECAE6;
+}
+.projects a:hover{
+    color:#f7fff7;
+}
+
+/* Work Experience
+-----------------------------------*/
+.work_experience{
+    background:#8ECAE6;
+    color:#023047;
+    padding: 10px;
+}
+
+/* Education
+-----------------------------------*/
+.education{
+    background: #023047;
+    color:#219EBC;
+    padding: 10px;
+}
+
+/* Contact Info
+-----------------------------------*/
+footer{
+    background:#FB8500;
+    color: #f7fff7;
+    padding: 10px;
+}
+.footer a{
+    color:#f7fff7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin:10px;
+}
